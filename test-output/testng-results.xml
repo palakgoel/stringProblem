@@ -2,25 +2,25 @@
 <testng-results skipped="0" failed="2" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2015-07-20T08:50:12Z" finished-at="2015-07-20T08:50:12Z">
+  <suite name="Default suite" duration-ms="56" started-at="2015-07-20T09:09:00Z" finished-at="2015-07-20T09:09:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2015-07-20T08:50:12Z" finished-at="2015-07-20T08:50:12Z">
-      <class name="test.StringTest">
-        <test-method status="PASS" signature="testIterateAndRemoveChar()[pri:0, instance:test.StringTest@46f5f779]" name="testIterateAndRemoveChar" duration-ms="16" started-at="2015-07-20T01:50:12Z" description="to test iterative method" finished-at="2015-07-20T01:50:12Z">
+    <test name="Default test" duration-ms="56" started-at="2015-07-20T09:09:00Z" finished-at="2015-07-20T09:09:00Z">
+      <class name="testing.StringTest">
+        <test-method status="PASS" signature="testIterateAndRemoveChar()[pri:0, instance:testing.StringTest@46f5f779]" name="testIterateAndRemoveChar" duration-ms="21" started-at="2015-07-20T02:09:00Z" description="to test iterative method" finished-at="2015-07-20T02:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterateAndRemoveChar -->
-        <test-method status="PASS" signature="testIterateAndRemoveChar_EmptySpacePassed()[pri:0, instance:test.StringTest@46f5f779]" name="testIterateAndRemoveChar_EmptySpacePassed" duration-ms="1" started-at="2015-07-20T01:50:12Z" description="to test iterative method for EmptySpace" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="PASS" signature="testIterateAndRemoveChar_EmptySpacePassed()[pri:0, instance:testing.StringTest@46f5f779]" name="testIterateAndRemoveChar_EmptySpacePassed" duration-ms="1" started-at="2015-07-20T02:09:00Z" description="to test iterative method for EmptySpace" finished-at="2015-07-20T02:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterateAndRemoveChar_EmptySpacePassed -->
-        <test-method status="FAIL" signature="testIterateAndRemoveChar_Null()[pri:0, instance:test.StringTest@46f5f779]" name="testIterateAndRemoveChar_Null" duration-ms="1" started-at="2015-07-20T01:50:12Z" description="to test iterative method for null" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="FAIL" signature="testIterateAndRemoveChar_Null()[pri:0, instance:testing.StringTest@46f5f779]" name="testIterateAndRemoveChar_Null" duration-ms="2" started-at="2015-07-20T02:09:00Z" description="to test iterative method for null" finished-at="2015-07-20T02:09:00Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at stringProblem.StringProblem.iterateAndRemoveChar(StringProblem.java:19)
-	at test.StringTest.testIterateAndRemoveChar_Null(StringTest.java:71)
+	at testing.StringTest.testIterateAndRemoveChar_Null(StringTest.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -51,19 +51,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterateAndRemoveChar_Null -->
-        <test-method status="PASS" signature="testIterateAndRemoveChar_SpecialCharacter()[pri:0, instance:test.StringTest@46f5f779]" name="testIterateAndRemoveChar_SpecialCharacter" duration-ms="2" started-at="2015-07-20T01:50:12Z" description="to test iterative method for special character" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="PASS" signature="testIterateAndRemoveChar_SpecialCharacter()[pri:0, instance:testing.StringTest@46f5f779]" name="testIterateAndRemoveChar_SpecialCharacter" duration-ms="1" started-at="2015-07-20T02:09:00Z" description="to test iterative method for special character" finished-at="2015-07-20T02:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterateAndRemoveChar_SpecialCharacter -->
-        <test-method status="PASS" signature="testOneLineRemoveCharMethod()[pri:0, instance:test.StringTest@46f5f779]" name="testOneLineRemoveCharMethod" duration-ms="2" started-at="2015-07-20T01:50:12Z" description="to test default  String method" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="PASS" signature="testOneLineRemoveCharMethod()[pri:0, instance:testing.StringTest@46f5f779]" name="testOneLineRemoveCharMethod" duration-ms="1" started-at="2015-07-20T02:09:00Z" description="to test default  String method" finished-at="2015-07-20T02:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneLineRemoveCharMethod -->
-        <test-method status="PASS" signature="testOneLineRemoveCharMethod_EmptySpacePassed()[pri:0, instance:test.StringTest@46f5f779]" name="testOneLineRemoveCharMethod_EmptySpacePassed" duration-ms="1" started-at="2015-07-20T01:50:12Z" description="to test iterative method for EmptySpace" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="PASS" signature="testOneLineRemoveCharMethod_EmptySpacePassed()[pri:0, instance:testing.StringTest@46f5f779]" name="testOneLineRemoveCharMethod_EmptySpacePassed" duration-ms="0" started-at="2015-07-20T02:09:00Z" description="to test iterative method for EmptySpace" finished-at="2015-07-20T02:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneLineRemoveCharMethod_EmptySpacePassed -->
-        <test-method status="FAIL" signature="testOneLineRemoveCharMethod_SpecialCharacter()[pri:0, instance:test.StringTest@46f5f779]" name="testOneLineRemoveCharMethod_SpecialCharacter" duration-ms="2" started-at="2015-07-20T01:50:12Z" description="to test oneLine method for special character" finished-at="2015-07-20T01:50:12Z">
+        <test-method status="FAIL" signature="testOneLineRemoveCharMethod_SpecialCharacter()[pri:0, instance:testing.StringTest@46f5f779]" name="testOneLineRemoveCharMethod_SpecialCharacter" duration-ms="2" started-at="2015-07-20T02:09:00Z" description="to test oneLine method for special character" finished-at="2015-07-20T02:09:00Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [this is a te$t $tring] but found [this is a tet tring]]]>
@@ -75,7 +75,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at test.StringTest.testOneLineRemoveCharMethod_SpecialCharacter(StringTest.java:62)
+	at testing.StringTest.testOneLineRemoveCharMethod_SpecialCharacter(StringTest.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneLineRemoveCharMethod_SpecialCharacter -->
-      </class> <!-- test.StringTest -->
+      </class> <!-- testing.StringTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

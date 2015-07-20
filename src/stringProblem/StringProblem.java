@@ -37,7 +37,7 @@ public class StringProblem {
 		System.out.println("\n\nIn this method we will use default String methods to remove Characters");
 		
 		
-		String tempString = stringUnderTest.replaceAll('^'+"", "");
+		String tempString = stringUnderTest.replaceAll(charToRemove+"", "");
 		System.out.println("Here is the final String: " + tempString);		
 		
 		return tempString.toString();
