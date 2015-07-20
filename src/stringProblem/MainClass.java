@@ -1,36 +1,23 @@
 package stringProblem;
 
-import java.util.Scanner;
-
 public class MainClass {
 
-	
 	public static void main(String[] args) {
 		
-		
+		// variable declaration
 		String inputString, outputString_Iteration, outputString_OneLine;
 		char charToRemove;
        
-		
-		Scanner user_input = new Scanner( System.in );
-		
-		System.out.print("Enter the string - ");
-		inputString = user_input.nextLine();
-		System.out.print("Enter the character you want to remove - ");
-		charToRemove = user_input.nextLine().charAt(0);
-		
-		
-		
 		StringProblem obj = new StringProblem();
-		outputString_Iteration  = obj.iterateAndRemoveChar(inputString,charToRemove);
-		System.out.println("Here is the final String: " + outputString_Iteration);
+		inputString = "This is test String";
+		charToRemove = 't';
 		
+		//replacing a character through iteration
+		outputString_Iteration  = obj.iterateAndRemoveChar(inputString,charToRemove);
+		System.out.println("Here is the final String for iterateAndRemoveChar method : " + outputString_Iteration);
+		
+		//replacing a character through one line code
 		outputString_OneLine = obj.oneLineRemoveChar(inputString,charToRemove);
-		System.out.println("Here is the final String: " + outputString_OneLine);
+		System.out.println("Here is the final String for oneLineRemoveChar method : " + outputString_OneLine);
 	}
-	
-	
-	
-	
-	
 }
